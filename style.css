@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100;
+    vertical-align: baseline;
+
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+.head{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position:fixed;
+    width: 100%;
+    z-index: 100;
+
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+    
+}
+.logo{
+    margin-left: 30px;
+}
+
+.logo a{ text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+ }
+
+ .navbar a{
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+ }
+ .navbar a:hover {
+    background-color: #444444;
+
+ }
+ .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+    
+    .header{
+        height: 100vh !important;
+        background: url(img/Diseño\ sin\ título.png) no-repeat center;              
+        background-size: cover;
+        
+    }
+
+    .title{
+        margin-bottom: 40px;
+        font-size: 60px;
+        font-weight: 600;
+        text-transform: uppercase ;
+    }
+
+    p{ margin-bottom: 40px;
+        font-size: 18px;
+    
+    }
+    .btn:hover{ 
+        background: none;
+    }
+    .btn{
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 40px;
+        border: 2px solid rgb(143, 145, 145);
+        color: #fff;
+        text-decoration: none;
+        background: rgb(133, 134, 134);
+    }
+    .btn:hover{
+        background: none;
+    }
+    .btn-home{
+        display: flex;}
+
+.btn-home a{ 
+    margin: 0 10px;
+}
+
+.content{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sau {
+    padding: 30px;
+    background: rgb(65, 65, 65);
+
+}
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+}
+.name{ text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;}
+
+.contenedor{ 
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contenedor a{
+    font-size: 50px;
+    transition: all ease 500ms;
+}
+
+.facebook{
+    color: rgb(150, 150, 150);
+}
+.instagram{
+    color: #8f8f8f;
+}
+
+.whatsapp{ 
+    color: #8f8f8f;
+}
+
+.contenedor a:hover { 
+transform: scale(1.2);
+}
+
+.content-price{
+    display: flex ;
+    justify-content: center;
+} 
+
+.talle {
+     display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid rgb(143, 145, 145);
+    color: #fff;
+    text-decoration: none;
+    background: rgb(133, 134, 134);
+}
+
+.box{
+    text-align: center;
+
+}
